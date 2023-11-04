@@ -49,4 +49,5 @@ Stores are set to always be open
 "Valuables"
 "Fish"
 "Bait"
+"Maptools"
 
