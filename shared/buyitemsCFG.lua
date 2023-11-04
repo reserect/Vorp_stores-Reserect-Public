@@ -757,6 +757,7 @@ Config.BuyItems = {
         { itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice =10.00, randomprice = math.random(5, 15) /50, desc = "Buy Quartz" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Compass" , category ="Maptools", itemLimit = 0, },
 
     },
     Rhodes = {
@@ -1512,6 +1513,7 @@ Config.BuyItems = {
         { itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice =10.00, randomprice = math.random(5, 15) /50, desc = "Buy Quartz" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Compass" , category ="Maptools", itemLimit = 0, },
 		
     },
     Strawberry = {
@@ -2267,6 +2269,7 @@ Config.BuyItems = {
         { itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice =10.00, randomprice = math.random(5, 15) /50, desc = "Buy Quartz" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Compass" , category ="Maptools", itemLimit = 0, },
 		
     },
     Blackwater = {
@@ -3022,6 +3025,7 @@ Config.BuyItems = {
         { itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice =10.00, randomprice = math.random(5, 15) /50, desc = "Buy Quartz" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Compass" , category ="Maptools", itemLimit = 0, },
 		
     },
     Armadillo = {
@@ -3777,6 +3781,7 @@ Config.BuyItems = {
         { itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice =10.00, randomprice = math.random(5, 15) /50, desc = "Buy Quartz" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Compass" , category ="Maptools", itemLimit = 0, },
 		
     },
     Tumbleweed = {
@@ -4532,6 +4537,7 @@ Config.BuyItems = {
         { itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice =10.00, randomprice = math.random(5, 15) /50, desc = "Buy Quartz" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Compass" , category ="Maptools", itemLimit = 0, },
 		
     },
     StDenis = {
@@ -5287,6 +5293,7 @@ Config.BuyItems = {
         { itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice =10.00, randomprice = math.random(5, 15) /50, desc = "Buy Quartz" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Compass" , category ="Maptools", itemLimit = 0, },
 		
     },
     Vanhorn = {
@@ -6042,6 +6049,7 @@ Config.BuyItems = {
         { itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice =10.00, randomprice = math.random(5, 15) /50, desc = "Buy Quartz" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 8) /50, desc = "Buy Compass" , category ="Maptools", itemLimit = 0, },
 		
     },
 	SaintDenisTrapper = {

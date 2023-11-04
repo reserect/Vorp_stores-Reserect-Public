@@ -92,6 +92,7 @@ Config.Stores = {
 			{ label = "Liquor", Type = "Liquor", desc = "Liquor",    img = "whisky" },
 			{ label = "Orchids", Type = "Orchids", desc = "Orchids",    img = "orchid_mf (2) " },
 			{ label = "Sweets", Type = "Sweets", desc = "Sweets",    img = "consumable_chocolatecake " },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -170,6 +171,7 @@ Config.Stores = {
 			{ label = "Liquor", Type = "Liquor", desc = "Liquor",    img = "whisky" },
 			{ label = "Orchids", Type = "Orchids", desc = "Orchids",    img = "orchid_mf (2) " },
 			{ label = "Sweets", Type = "Sweets", desc = "Sweets",    img = "consumable_chocolatecake " },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -242,6 +244,7 @@ Config.Stores = {
 			{ label = "Liquor", Type = "Liquor", desc = "Liquor",    img = "whisky" },
 			{ label = "Orchids", Type = "Orchids", desc = "Orchids",    img = "orchid_mf (2) " },
 			{ label = "Sweets", Type = "Sweets", desc = "Sweets",    img = "consumable_chocolatecake " },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -311,6 +314,7 @@ Config.Stores = {
 			{ label = "Liquor", Type = "Liquor", desc = "Liquor",    img = "whisky" },
 			{ label = "Orchids", Type = "Orchids", desc = "Orchids",    img = "orchid_mf (2) " },
 			{ label = "Sweets", Type = "Sweets", desc = "Sweets",    img = "consumable_chocolatecake " },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -381,6 +385,7 @@ Config.Stores = {
 			{ label = "Liquor", Type = "Liquor", desc = "Liquor",    img = "whisky" },
 			{ label = "Orchids", Type = "Orchids", desc = "Orchids",    img = "orchid_mf (2) " },
 			{ label = "Sweets", Type = "Sweets", desc = "Sweets",    img = "consumable_chocolatecake " },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -450,6 +455,7 @@ Config.Stores = {
 			{ label = "Liquor", Type = "Liquor", desc = "Liquor",    img = "whisky" },
 			{ label = "Orchids", Type = "Orchids", desc = "Orchids",    img = "orchid_mf (2) " },
 			{ label = "Sweets", Type = "Sweets", desc = "Sweets",    img = "consumable_chocolatecake " },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -519,6 +525,7 @@ Config.Stores = {
 			{ label = "Liquor", Type = "Liquor", desc = "Liquor",    img = "whisky" },
 			{ label = "Orchids", Type = "Orchids", desc = "Orchids",    img = "orchid_mf (2) " },
 			{ label = "Sweets", Type = "Sweets", desc = "Sweets",    img = "consumable_chocolatecake " },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -588,6 +595,7 @@ Config.Stores = {
 			{ label = "Liquor", Type = "Liquor", desc = "Liquor",    img = "whisky" },
 			{ label = "Orchids", Type = "Orchids", desc = "Orchids",    img = "orchid_mf (2) " },
 			{ label = "Sweets", Type = "Sweets", desc = "Sweets",    img = "consumable_chocolatecake " },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
