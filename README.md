@@ -54,7 +54,6 @@ Stores are set to always be open
 "AnimalsandPelts"
 "Legendary"
 "Moonshine"
-"Valuables"
 "Fish"
 "Bait"
 "Maptools"
