@@ -27,4 +27,34 @@ Saint Denis, ThievesLanding, Rhodes, Emerald Ranch
 ---------------------------------------------------------------------------------
 
 Edit to The needs of you.
-Stores are set to alw
+Stores are set to always be open
+
+"Food"
+"Tools"
+"Meds"
+"Cooking"
+"Crafting"
+"Drinks"
+"Pets"
+"Seeds"
+"Preciousitems"
+"Valuables"
+"Fishing"
+"Caboom"
+"Furniture"
+"Meat"
+"Documents"
+"Misc"
+"Materials"
+"Plants"
+"Fertilizer"
+"Liquor"
+"Orchids"
+"Sweets"
+"AnimalsandPelts"
+"Legendary"
+"Moonshine"
+"Valuables"
+"Fish"
+"Bait"
+"Maptools"
