@@ -4,6 +4,10 @@ Has the Legendary Pelts And More Please remember this was configured for
 my own use before and Removed a few things that was not needed. This 
 includes all the Trapper Stores Too.
 
+Didn't add the key images to the store images folder but they are in the database
+so added them seperatly
+Keyimages.zip
+
 Images.zip
 2455 images 
 It may ask to overwrite if you want to keep your other images do not overwrite.
