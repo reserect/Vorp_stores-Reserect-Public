@@ -155,7 +155,7 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
@@ -232,7 +232,7 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
@@ -306,7 +306,7 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
@@ -381,7 +381,7 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
@@ -455,7 +455,7 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
@@ -529,7 +529,7 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
@@ -603,7 +603,7 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
@@ -679,7 +679,7 @@ Config.Stores = {
         category = {
             { label = "Fish",    Type = "Fish",    desc = "Buy Fish", img = "A_C_FISHRAINBOWTROUT_01_LG" },
             { label = "Bait",   Type = "Bait",   desc = "Buy Bait",   img = "fishbait" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -730,7 +730,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -781,7 +781,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -832,7 +832,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -883,7 +883,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -934,7 +934,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -985,7 +985,7 @@ Config.Stores = {
         category = {
             { label = "Moonshine",    Type = "Moonshine",    desc = "Nice Moonshine", img = "folder_moonshine_recipes" },
             { label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby1" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1036,7 +1036,7 @@ Config.Stores = {
         category = {
             { label = "Moonshine",    Type = "Moonshine",    desc = "Nice Moonshine", img = "folder_moonshine_recipes" },
             { label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby1" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1087,7 +1087,7 @@ Config.Stores = {
         category = {
             { label = "Moonshine",    Type = "Moonshine",    desc = "Nice Moonshine", img = "folder_moonshine_recipes" },
             { label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby1" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1138,7 +1138,7 @@ Config.Stores = {
         category = {
             { label = "Moonshine",    Type = "Moonshine",    desc = "Nice Moonshine", img = "folder_moonshine_recipes" },
             { label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby1" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1189,7 +1189,7 @@ Config.Stores = {
         category = {
             { label = "Fish",    Type = "Fish",    desc = "Buy Fish", img = "A_C_FISHRAINBOWTROUT_01_LG" },
             { label = "Bait",   Type = "Bait",   desc = "Buy Bait",   img = "fishbait" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1236,7 +1236,7 @@ Config.Stores = {
         category = {
             { label = "Fish",    Type = "Fish",    desc = "Buy Fish", img = "A_C_FISHRAINBOWTROUT_01_LG" },
             { label = "Bait",   Type = "Bait",   desc = "Buy Bait",   img = "fishbait" },
-            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
