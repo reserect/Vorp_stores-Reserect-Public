@@ -10,13 +10,13 @@ Config.DevMode = false -- if true you can use /reload to reload the script
 -- Webhook Section, description is in translation
 Config.UseWebhook = true -- Use webhook
 Config.WebhookLanguage = {
-    WebhookUrl = "",
-    WebhookTitle = "",
+    WebhookUrl = "https://discord.com/api/webhooks/1017725842564067338/qQuAmeZKRDE9Vr1uLwgHq2En7mmksxqhpr6nTWBO66l48YwhuG1tbkevJNBY93vRHfL5",
+    WebhookTitle = "ReserectsVorpStores",
     WebhookColor = "1127128",
-    WebhookName = "",
-    WebhookLogo = "",
-    WebhookLogo2 = "",
-    WebhookAvatar = ""
+    WebhookName = "ReserectsVorpStores",
+    WebhookLogo = "https://i.imgur.com/7K5Gcmt.png",
+    WebhookLogo2 = "https://i.imgur.com/7K5Gcmt.png",
+    WebhookAvatar = "https://i.imgur.com/7K5Gcmt.png"
 }
 -- if you have UI you want to hid use it in this function
 -- remove what you dont use
@@ -77,10 +77,14 @@ Config.Stores = {
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
 			{ label = "Pets", Type = "Pets", desc = "Pet Items",    img = "DogFood" },
+			{ label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
+            { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
 			{ label = "Seeds", Type = "Seeds", desc = "Seeds",    img = "Wheat_Seed" },
+			{ label = "daweed", Type = "daweed", desc = "daweed Stuff",    img = "joint" },
 			{ label = "Preciousitems", Type = "Preciousitems", desc = "Buy Preciousitems",    img = "jewel_ruby1" },
 			{ label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby2" },
 			{ label = "Fishing", Type = "Fishing", desc = "Fishing Stuff",    img = "spinner_bait" },
+			{ label = "Coins", Type = "Coins", desc = "Coins",    img = "rescoin" },
 			{ label = "Caboom", Type = "Caboom", desc = "Caboom",    img = "dynamite" },
 			{ label = "Furniture", Type = "Furniture", desc = "Furniture",    img = "table" },
 			{ label = "Meat", Type = "Meat", desc = "Meat",    img = "meat" },
@@ -151,15 +155,19 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
 			{ label = "Pets", Type = "Pets", desc = "Pet Items",    img = "DogFood" },
+			{ label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
+            { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
 			{ label = "Seeds", Type = "Seeds", desc = "Seeds",    img = "Wheat_Seed" },
+			{ label = "daweed", Type = "daweed", desc = "daweed Stuff",    img = "joint" },
 			{ label = "Preciousitems", Type = "Preciousitems", desc = "Buy Preciousitems",    img = "jewel_ruby1" },
 			{ label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby2" },
 			{ label = "Fishing", Type = "Fishing", desc = "Fishing Stuff",    img = "spinner_bait" },
+			{ label = "Coins", Type = "Coins", desc = "Coins",    img = "rescoin" },
 			{ label = "Caboom", Type = "Caboom", desc = "Caboom",    img = "dynamite" },
 			{ label = "Furniture", Type = "Furniture", desc = "Furniture",    img = "table" },
 			{ label = "Meat", Type = "Meat", desc = "Meat",    img = "meat" },
@@ -224,15 +232,19 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
 			{ label = "Pets", Type = "Pets", desc = "Pet Items",    img = "DogFood" },
+			{ label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
+            { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
 			{ label = "Seeds", Type = "Seeds", desc = "Seeds",    img = "Wheat_Seed" },
+			{ label = "daweed", Type = "daweed", desc = "daweed Stuff",    img = "joint" },
 			{ label = "Preciousitems", Type = "Preciousitems", desc = "Buy Preciousitems",    img = "jewel_ruby1" },
 			{ label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby2" },
 			{ label = "Fishing", Type = "Fishing", desc = "Fishing Stuff",    img = "spinner_bait" },
+			{ label = "Coins", Type = "Coins", desc = "Coins",    img = "rescoin" },
 			{ label = "Caboom", Type = "Caboom", desc = "Caboom",    img = "dynamite" },
 			{ label = "Furniture", Type = "Furniture", desc = "Furniture",    img = "table" },
 			{ label = "Meat", Type = "Meat", desc = "Meat",    img = "meat" },
@@ -294,15 +306,19 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
 			{ label = "Pets", Type = "Pets", desc = "Pet Items",    img = "DogFood" },
+			{ label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
+            { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
 			{ label = "Seeds", Type = "Seeds", desc = "Seeds",    img = "Wheat_Seed" },
+			{ label = "daweed", Type = "daweed", desc = "daweed Stuff",    img = "joint" },
 			{ label = "Preciousitems", Type = "Preciousitems", desc = "Buy Preciousitems",    img = "jewel_ruby1" },
 			{ label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby2" },
 			{ label = "Fishing", Type = "Fishing", desc = "Fishing Stuff",    img = "spinner_bait" },
+			{ label = "Coins", Type = "Coins", desc = "Coins",    img = "rescoin" },
 			{ label = "Caboom", Type = "Caboom", desc = "Caboom",    img = "dynamite" },
 			{ label = "Furniture", Type = "Furniture", desc = "Furniture",    img = "table" },
 			{ label = "Meat", Type = "Meat", desc = "Meat",    img = "meat" },
@@ -365,15 +381,19 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
 			{ label = "Pets", Type = "Pets", desc = "Pet Items",    img = "DogFood" },
+			{ label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
+            { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
 			{ label = "Seeds", Type = "Seeds", desc = "Seeds",    img = "Wheat_Seed" },
+			{ label = "daweed", Type = "daweed", desc = "daweed Stuff",    img = "joint" },
 			{ label = "Preciousitems", Type = "Preciousitems", desc = "Buy Preciousitems",    img = "jewel_ruby1" },
 			{ label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby2" },
 			{ label = "Fishing", Type = "Fishing", desc = "Fishing Stuff",    img = "spinner_bait" },
+			{ label = "Coins", Type = "Coins", desc = "Coins",    img = "rescoin" },
 			{ label = "Caboom", Type = "Caboom", desc = "Caboom",    img = "dynamite" },
 			{ label = "Furniture", Type = "Furniture", desc = "Furniture",    img = "table" },
 			{ label = "Meat", Type = "Meat", desc = "Meat",    img = "meat" },
@@ -435,15 +455,19 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
 			{ label = "Pets", Type = "Pets", desc = "Pet Items",    img = "DogFood" },
+			{ label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
+            { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
 			{ label = "Seeds", Type = "Seeds", desc = "Seeds",    img = "Wheat_Seed" },
+			{ label = "daweed", Type = "daweed", desc = "daweed Stuff",    img = "joint" },
 			{ label = "Preciousitems", Type = "Preciousitems", desc = "Buy Preciousitems",    img = "jewel_ruby1" },
 			{ label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby2" },
 			{ label = "Fishing", Type = "Fishing", desc = "Fishing Stuff",    img = "spinner_bait" },
+			{ label = "Coins", Type = "Coins", desc = "Coins",    img = "rescoin" },
 			{ label = "Caboom", Type = "Caboom", desc = "Caboom",    img = "dynamite" },
 			{ label = "Furniture", Type = "Furniture", desc = "Furniture",    img = "table" },
 			{ label = "Meat", Type = "Meat", desc = "Meat",    img = "meat" },
@@ -505,15 +529,19 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
 			{ label = "Pets", Type = "Pets", desc = "Pet Items",    img = "DogFood" },
+			{ label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
+            { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
 			{ label = "Seeds", Type = "Seeds", desc = "Seeds",    img = "Wheat_Seed" },
+			{ label = "daweed", Type = "daweed", desc = "daweed Stuff",    img = "joint" },
 			{ label = "Preciousitems", Type = "Preciousitems", desc = "Buy Preciousitems",    img = "jewel_ruby1" },
 			{ label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby2" },
 			{ label = "Fishing", Type = "Fishing", desc = "Fishing Stuff",    img = "spinner_bait" },
+			{ label = "Coins", Type = "Coins", desc = "Coins",    img = "rescoin" },
 			{ label = "Caboom", Type = "Caboom", desc = "Caboom",    img = "dynamite" },
 			{ label = "Furniture", Type = "Furniture", desc = "Furniture",    img = "table" },
 			{ label = "Meat", Type = "Meat", desc = "Meat",    img = "meat" },
@@ -575,15 +603,19 @@ Config.Stores = {
 			
             { label = "Food",    Type = "Food",    desc = "delicious Food", img = "consumable_bread_roll" },
             { label = "Tools",   Type = "Tools",   desc = "useful Tools",   img = "butcher_table_production" },
-            { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
 			{ label = "Cooking", Type = "cooking", desc = "Cooking Items",    img = "upgrade_upg_cooking_spit" },
 			{ label = "Crafting", Type = "crafting", desc = "Crafting Items",    img = "weapon_melee_hammer" },
 			{ label = "Drinks", Type = "Drinks", desc = "Drinks",    img = "beer" },
 			{ label = "Pets", Type = "Pets", desc = "Pet Items",    img = "DogFood" },
+			{ label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
+            { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
 			{ label = "Seeds", Type = "Seeds", desc = "Seeds",    img = "Wheat_Seed" },
+			{ label = "daweed", Type = "daweed", desc = "daweed Stuff",    img = "joint" },
 			{ label = "Preciousitems", Type = "Preciousitems", desc = "Buy Preciousitems",    img = "jewel_ruby1" },
 			{ label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby2" },
 			{ label = "Fishing", Type = "Fishing", desc = "Fishing Stuff",    img = "spinner_bait" },
+			{ label = "Coins", Type = "Coins", desc = "Coins",    img = "rescoin" },
 			{ label = "Caboom", Type = "Caboom", desc = "Caboom",    img = "dynamite" },
 			{ label = "Furniture", Type = "Furniture", desc = "Furniture",    img = "table" },
 			{ label = "Meat", Type = "Meat", desc = "Meat",    img = "meat" },
@@ -647,7 +679,7 @@ Config.Stores = {
         category = {
             { label = "Fish",    Type = "Fish",    desc = "Buy Fish", img = "A_C_FISHRAINBOWTROUT_01_LG" },
             { label = "Bait",   Type = "Bait",   desc = "Buy Bait",   img = "fishbait" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -698,7 +730,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -749,7 +781,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -800,7 +832,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -851,7 +883,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -902,7 +934,7 @@ Config.Stores = {
         category = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -953,7 +985,7 @@ Config.Stores = {
         category = {
             { label = "Moonshine",    Type = "Moonshine",    desc = "Nice Moonshine", img = "folder_moonshine_recipes" },
             { label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby1" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1004,7 +1036,7 @@ Config.Stores = {
         category = {
             { label = "Moonshine",    Type = "Moonshine",    desc = "Nice Moonshine", img = "folder_moonshine_recipes" },
             { label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby1" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1055,7 +1087,7 @@ Config.Stores = {
         category = {
             { label = "Moonshine",    Type = "Moonshine",    desc = "Nice Moonshine", img = "folder_moonshine_recipes" },
             { label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby1" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1106,7 +1138,7 @@ Config.Stores = {
         category = {
             { label = "Moonshine",    Type = "Moonshine",    desc = "Nice Moonshine", img = "folder_moonshine_recipes" },
             { label = "Valuables",   Type = "Valuables",   desc = "Valuable Items",   img = "jewel_ruby1" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1157,7 +1189,7 @@ Config.Stores = {
         category = {
             { label = "Fish",    Type = "Fish",    desc = "Buy Fish", img = "A_C_FISHRAINBOWTROUT_01_LG" },
             { label = "Bait",   Type = "Bait",   desc = "Buy Bait",   img = "fishbait" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -1204,7 +1236,7 @@ Config.Stores = {
         category = {
             { label = "Fish",    Type = "Fish",    desc = "Buy Fish", img = "A_C_FISHRAINBOWTROUT_01_LG" },
             { label = "Bait",   Type = "Bait",   desc = "Buy Bait",   img = "fishbait" },
-            { label = "Meds", Type = "Medical", desc = "Buy Meds",    img = "bandage" },
+            { label = "Meds", Type = "Medical", desc = "Meds",    img = "bandage" },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
