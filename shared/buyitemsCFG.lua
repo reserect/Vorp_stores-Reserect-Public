@@ -5,6 +5,9 @@
 -- * THESE ARE JUST EXAMPLES YOU MUST CONFIGURE YOUR OWN STORES *--
 Config.BuyItems = {
     Valentine = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Fish Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy", category = "Fishing", itemLimit = 0, },
@@ -54,7 +57,6 @@ Config.BuyItems = {
 		{ itemLabel = "Copper", itemName = "copper", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Copper", category = "crafting", itemLimit = 0, },
 		{ itemLabel = "Fan", itemName = "fan", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy A Fan", category = "Tools", itemLimit = 0, },
 		{ itemLabel = "Animal Fat", itemName = "Fat", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 5) /50, desc = "Buy Animal Fat", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Herptile Meat", itemName = "herptile", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 10) /50, desc = "Buy Herptile Meat", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Honey", itemName = "honey", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Honey", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice = 60, randomprice = math.random(60, 70) /50, desc = "Buy Quartz", category = "crafting", itemLimit = 0, },
@@ -102,7 +104,6 @@ Config.BuyItems = {
 		{ itemLabel = "Wild Rhubarb", itemName = "Wild_Rhubarb", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 15) /50, desc = "Buy Wild Rhubarb", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Wine", itemName = "wine", currencyType = "cash", buyprice = 15, randomprice = math.random(14, 15) /50, desc = "Buy Wine", category = "Drinks", itemLimit = 0, },
 		{ itemLabel = "Wintergreen Berry", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 4) /50, desc = "Buy Wintergreen Berry", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Gold Earing", itemName = "provision_earring_gold", currencyType = "cash", buyprice = 50, randomprice = math.random(10, 50) /50, desc = "Buy The Gold Earing", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Smelting Pot", itemName = "smeltingpot", currencyType = "cash", buyprice = 100, randomprice = math.random(50, 100) /50, desc = "Buy The Smelting Pot", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Carrot", category = "Pets", itemLimit = 0, },
@@ -761,6 +762,9 @@ Config.BuyItems = {
 
     },
     Rhodes = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Fish Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy", category = "Fishing", itemLimit = 0, },
@@ -810,7 +814,7 @@ Config.BuyItems = {
 		{ itemLabel = "Copper", itemName = "copper", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Copper", category = "crafting", itemLimit = 0, },
 		{ itemLabel = "Fan", itemName = "fan", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy A Fan", category = "Tools", itemLimit = 0, },
 		{ itemLabel = "Animal Fat", itemName = "Fat", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 5) /50, desc = "Buy Animal Fat", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		
 		{ itemLabel = "Herptile Meat", itemName = "herptile", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 10) /50, desc = "Buy Herptile Meat", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Honey", itemName = "honey", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Honey", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice = 60, randomprice = math.random(60, 70) /50, desc = "Buy Quartz", category = "crafting", itemLimit = 0, },
@@ -858,7 +862,6 @@ Config.BuyItems = {
 		{ itemLabel = "Wild Rhubarb", itemName = "Wild_Rhubarb", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 15) /50, desc = "Buy Wild Rhubarb", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Wine", itemName = "wine", currencyType = "cash", buyprice = 15, randomprice = math.random(14, 15) /50, desc = "Buy Wine", category = "Drinks", itemLimit = 0, },
 		{ itemLabel = "Wintergreen Berry", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 4) /50, desc = "Buy Wintergreen Berry", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Gold Earing", itemName = "provision_earring_gold", currencyType = "cash", buyprice = 50, randomprice = math.random(10, 50) /50, desc = "Buy The Gold Earing", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Smelting Pot", itemName = "smeltingpot", currencyType = "cash", buyprice = 100, randomprice = math.random(50, 100) /50, desc = "Buy The Smelting Pot", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Carrot", category = "Pets", itemLimit = 0, },
@@ -1517,6 +1520,9 @@ Config.BuyItems = {
 		
     },
     Strawberry = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Fish Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy", category = "Fishing", itemLimit = 0, },
@@ -1566,7 +1572,6 @@ Config.BuyItems = {
 		{ itemLabel = "Copper", itemName = "copper", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Copper", category = "crafting", itemLimit = 0, },
 		{ itemLabel = "Fan", itemName = "fan", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy A Fan", category = "Tools", itemLimit = 0, },
 		{ itemLabel = "Animal Fat", itemName = "Fat", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 5) /50, desc = "Buy Animal Fat", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Herptile Meat", itemName = "herptile", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 10) /50, desc = "Buy Herptile Meat", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Honey", itemName = "honey", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Honey", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice = 60, randomprice = math.random(60, 70) /50, desc = "Buy Quartz", category = "crafting", itemLimit = 0, },
@@ -1614,7 +1619,6 @@ Config.BuyItems = {
 		{ itemLabel = "Wild Rhubarb", itemName = "Wild_Rhubarb", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 15) /50, desc = "Buy Wild Rhubarb", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Wine", itemName = "wine", currencyType = "cash", buyprice = 15, randomprice = math.random(14, 15) /50, desc = "Buy Wine", category = "Drinks", itemLimit = 0, },
 		{ itemLabel = "Wintergreen Berry", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 4) /50, desc = "Buy Wintergreen Berry", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Gold Earing", itemName = "provision_earring_gold", currencyType = "cash", buyprice = 50, randomprice = math.random(10, 50) /50, desc = "Buy The Gold Earing", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Smelting Pot", itemName = "smeltingpot", currencyType = "cash", buyprice = 100, randomprice = math.random(50, 100) /50, desc = "Buy The Smelting Pot", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Carrot", category = "Pets", itemLimit = 0, },
@@ -2273,6 +2277,9 @@ Config.BuyItems = {
 		
     },
     Blackwater = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Fish Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy", category = "Fishing", itemLimit = 0, },
@@ -2322,7 +2329,6 @@ Config.BuyItems = {
 		{ itemLabel = "Copper", itemName = "copper", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Copper", category = "crafting", itemLimit = 0, },
 		{ itemLabel = "Fan", itemName = "fan", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy A Fan", category = "Tools", itemLimit = 0, },
 		{ itemLabel = "Animal Fat", itemName = "Fat", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 5) /50, desc = "Buy Animal Fat", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Herptile Meat", itemName = "herptile", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 10) /50, desc = "Buy Herptile Meat", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Honey", itemName = "honey", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Honey", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice = 60, randomprice = math.random(60, 70) /50, desc = "Buy Quartz", category = "crafting", itemLimit = 0, },
@@ -2370,7 +2376,6 @@ Config.BuyItems = {
 		{ itemLabel = "Wild Rhubarb", itemName = "Wild_Rhubarb", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 15) /50, desc = "Buy Wild Rhubarb", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Wine", itemName = "wine", currencyType = "cash", buyprice = 15, randomprice = math.random(14, 15) /50, desc = "Buy Wine", category = "Drinks", itemLimit = 0, },
 		{ itemLabel = "Wintergreen Berry", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 4) /50, desc = "Buy Wintergreen Berry", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Gold Earing", itemName = "provision_earring_gold", currencyType = "cash", buyprice = 50, randomprice = math.random(10, 50) /50, desc = "Buy The Gold Earing", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Smelting Pot", itemName = "smeltingpot", currencyType = "cash", buyprice = 100, randomprice = math.random(50, 100) /50, desc = "Buy The Smelting Pot", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Carrot", category = "Pets", itemLimit = 0, },
@@ -3029,6 +3034,9 @@ Config.BuyItems = {
 		
     },
     Armadillo = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Fish Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy", category = "Fishing", itemLimit = 0, },
@@ -3078,7 +3086,6 @@ Config.BuyItems = {
 		{ itemLabel = "Copper", itemName = "copper", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Copper", category = "crafting", itemLimit = 0, },
 		{ itemLabel = "Fan", itemName = "fan", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy A Fan", category = "Tools", itemLimit = 0, },
 		{ itemLabel = "Animal Fat", itemName = "Fat", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 5) /50, desc = "Buy Animal Fat", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Herptile Meat", itemName = "herptile", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 10) /50, desc = "Buy Herptile Meat", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Honey", itemName = "honey", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Honey", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice = 60, randomprice = math.random(60, 70) /50, desc = "Buy Quartz", category = "crafting", itemLimit = 0, },
@@ -3126,7 +3133,6 @@ Config.BuyItems = {
 		{ itemLabel = "Wild Rhubarb", itemName = "Wild_Rhubarb", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 15) /50, desc = "Buy Wild Rhubarb", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Wine", itemName = "wine", currencyType = "cash", buyprice = 15, randomprice = math.random(14, 15) /50, desc = "Buy Wine", category = "Drinks", itemLimit = 0, },
 		{ itemLabel = "Wintergreen Berry", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 4) /50, desc = "Buy Wintergreen Berry", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Gold Earing", itemName = "provision_earring_gold", currencyType = "cash", buyprice = 50, randomprice = math.random(10, 50) /50, desc = "Buy The Gold Earing", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Smelting Pot", itemName = "smeltingpot", currencyType = "cash", buyprice = 100, randomprice = math.random(50, 100) /50, desc = "Buy The Smelting Pot", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Carrot", category = "Pets", itemLimit = 0, },
@@ -3785,6 +3791,9 @@ Config.BuyItems = {
 		
     },
     Tumbleweed = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Fish Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy", category = "Fishing", itemLimit = 0, },
@@ -3834,7 +3843,6 @@ Config.BuyItems = {
 		{ itemLabel = "Copper", itemName = "copper", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Copper", category = "crafting", itemLimit = 0, },
 		{ itemLabel = "Fan", itemName = "fan", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy A Fan", category = "Tools", itemLimit = 0, },
 		{ itemLabel = "Animal Fat", itemName = "Fat", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 5) /50, desc = "Buy Animal Fat", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Herptile Meat", itemName = "herptile", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 10) /50, desc = "Buy Herptile Meat", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Honey", itemName = "honey", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Honey", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice = 60, randomprice = math.random(60, 70) /50, desc = "Buy Quartz", category = "crafting", itemLimit = 0, },
@@ -3882,7 +3890,6 @@ Config.BuyItems = {
 		{ itemLabel = "Wild Rhubarb", itemName = "Wild_Rhubarb", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 15) /50, desc = "Buy Wild Rhubarb", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Wine", itemName = "wine", currencyType = "cash", buyprice = 15, randomprice = math.random(14, 15) /50, desc = "Buy Wine", category = "Drinks", itemLimit = 0, },
 		{ itemLabel = "Wintergreen Berry", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 4) /50, desc = "Buy Wintergreen Berry", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Gold Earing", itemName = "provision_earring_gold", currencyType = "cash", buyprice = 50, randomprice = math.random(10, 50) /50, desc = "Buy The Gold Earing", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Smelting Pot", itemName = "smeltingpot", currencyType = "cash", buyprice = 100, randomprice = math.random(50, 100) /50, desc = "Buy The Smelting Pot", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Carrot", category = "Pets", itemLimit = 0, },
@@ -4541,6 +4548,9 @@ Config.BuyItems = {
 		
     },
     StDenis = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Fish Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy", category = "Fishing", itemLimit = 0, },
@@ -4590,7 +4600,6 @@ Config.BuyItems = {
 		{ itemLabel = "Copper", itemName = "copper", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Copper", category = "crafting", itemLimit = 0, },
 		{ itemLabel = "Fan", itemName = "fan", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy A Fan", category = "Tools", itemLimit = 0, },
 		{ itemLabel = "Animal Fat", itemName = "Fat", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 5) /50, desc = "Buy Animal Fat", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Herptile Meat", itemName = "herptile", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 10) /50, desc = "Buy Herptile Meat", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Honey", itemName = "honey", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Honey", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice = 60, randomprice = math.random(60, 70) /50, desc = "Buy Quartz", category = "crafting", itemLimit = 0, },
@@ -4638,7 +4647,6 @@ Config.BuyItems = {
 		{ itemLabel = "Wild Rhubarb", itemName = "Wild_Rhubarb", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 15) /50, desc = "Buy Wild Rhubarb", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Wine", itemName = "wine", currencyType = "cash", buyprice = 15, randomprice = math.random(14, 15) /50, desc = "Buy Wine", category = "Drinks", itemLimit = 0, },
 		{ itemLabel = "Wintergreen Berry", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 4) /50, desc = "Buy Wintergreen Berry", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Gold Earing", itemName = "provision_earring_gold", currencyType = "cash", buyprice = 50, randomprice = math.random(10, 50) /50, desc = "Buy The Gold Earing", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Smelting Pot", itemName = "smeltingpot", currencyType = "cash", buyprice = 100, randomprice = math.random(50, 100) /50, desc = "Buy The Smelting Pot", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Carrot", category = "Pets", itemLimit = 0, },
@@ -5297,6 +5305,9 @@ Config.BuyItems = {
 		
     },
     Vanhorn = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy Fish Bait", category = "Fishing", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 1, randomprice = math.random(1, 2) /50, desc = "Buy", category = "Fishing", itemLimit = 0, },
@@ -5346,7 +5357,6 @@ Config.BuyItems = {
 		{ itemLabel = "Copper", itemName = "copper", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Copper", category = "crafting", itemLimit = 0, },
 		{ itemLabel = "Fan", itemName = "fan", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy A Fan", category = "Tools", itemLimit = 0, },
 		{ itemLabel = "Animal Fat", itemName = "Fat", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 5) /50, desc = "Buy Animal Fat", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Herptile Meat", itemName = "herptile", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 10) /50, desc = "Buy Herptile Meat", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Honey", itemName = "honey", currencyType = "cash", buyprice = 10, randomprice = math.random(5, 10) /50, desc = "Buy Honey", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Quartz", itemName = "quartz", currencyType = "cash", buyprice = 60, randomprice = math.random(60, 70) /50, desc = "Buy Quartz", category = "crafting", itemLimit = 0, },
@@ -5394,7 +5404,6 @@ Config.BuyItems = {
 		{ itemLabel = "Wild Rhubarb", itemName = "Wild_Rhubarb", currencyType = "cash", buyprice = 5, randomprice = math.random(5, 15) /50, desc = "Buy Wild Rhubarb", category = "cooking", itemLimit = 0, },
 		{ itemLabel = "Wine", itemName = "wine", currencyType = "cash", buyprice = 15, randomprice = math.random(14, 15) /50, desc = "Buy Wine", category = "Drinks", itemLimit = 0, },
 		{ itemLabel = "Wintergreen Berry", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2, randomprice = math.random(2, 4) /50, desc = "Buy Wintergreen Berry", category = "cooking", itemLimit = 0, },
-		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
 		{ itemLabel = "Gold Earing", itemName = "provision_earring_gold", currencyType = "cash", buyprice = 50, randomprice = math.random(10, 50) /50, desc = "Buy The Gold Earing", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Smelting Pot", itemName = "smeltingpot", currencyType = "cash", buyprice = 100, randomprice = math.random(50, 100) /50, desc = "Buy The Smelting Pot", category = "Preciousitems", itemLimit = 0, },
 		{ itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Carrot", category = "Pets", itemLimit = 0, },
@@ -6053,6 +6062,9 @@ Config.BuyItems = {
 		
     },
 	SaintDenisTrapper = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Woodpecker", itemName = "woodpeck01_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Woodpecker 2", itemName = "woodpeck02_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker 2" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Western rattlesnake pelt", itemName = "wsnakes", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Western rattlesnake pelt" , category ="AnimalsandPelts", itemLimit = 0, },
@@ -6206,7 +6218,6 @@ Config.BuyItems = {
         { itemLabel = "Rooster feather", itemName = "cockf", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Rooster feather" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Robin", itemName = "robin_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Robin" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Volture Egg", itemName = "Volture_Egg", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Volture Egg" , category ="AnimalsandPelts", itemLimit = 0, },
-        
         { itemLabel = "Legendary Alligator pelt", itemName = "legaligators", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Teca Alligator pelt", itemName = "legaligators1", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Teca Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Sun Alligator pelt", itemName = "legaligators2", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Sun Alligator pelt" , category ="Legendary", itemLimit = 0, },
@@ -6276,6 +6287,9 @@ Config.BuyItems = {
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
     },
     ElysianPoolTrapper = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Woodpecker", itemName = "woodpeck01_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Woodpecker 2", itemName = "woodpeck02_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker 2" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Western rattlesnake pelt", itemName = "wsnakes", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Western rattlesnake pelt" , category ="AnimalsandPelts", itemLimit = 0, },
@@ -6429,7 +6443,6 @@ Config.BuyItems = {
         { itemLabel = "Rooster feather", itemName = "cockf", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Rooster feather" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Robin", itemName = "robin_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Robin" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Volture Egg", itemName = "Volture_Egg", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Volture Egg" , category ="AnimalsandPelts", itemLimit = 0, },
-        
         { itemLabel = "Legendary Alligator pelt", itemName = "legaligators", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Teca Alligator pelt", itemName = "legaligators1", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Teca Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Sun Alligator pelt", itemName = "legaligators2", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Sun Alligator pelt" , category ="Legendary", itemLimit = 0, },
@@ -6499,6 +6512,9 @@ Config.BuyItems = {
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
     },
     NearStrawberryTrapper = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Woodpecker", itemName = "woodpeck01_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Woodpecker 2", itemName = "woodpeck02_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker 2" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Western rattlesnake pelt", itemName = "wsnakes", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Western rattlesnake pelt" , category ="AnimalsandPelts", itemLimit = 0, },
@@ -6652,7 +6668,6 @@ Config.BuyItems = {
         { itemLabel = "Rooster feather", itemName = "cockf", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Rooster feather" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Robin", itemName = "robin_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Robin" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Volture Egg", itemName = "Volture_Egg", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Volture Egg" , category ="AnimalsandPelts", itemLimit = 0, },
-        
         { itemLabel = "Legendary Alligator pelt", itemName = "legaligators", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Teca Alligator pelt", itemName = "legaligators1", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Teca Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Sun Alligator pelt", itemName = "legaligators2", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Sun Alligator pelt" , category ="Legendary", itemLimit = 0, },
@@ -6722,6 +6737,9 @@ Config.BuyItems = {
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
     },
     NearRiggsStationTrapper = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Woodpecker", itemName = "woodpeck01_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Woodpecker 2", itemName = "woodpeck02_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker 2" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Western rattlesnake pelt", itemName = "wsnakes", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Western rattlesnake pelt" , category ="AnimalsandPelts", itemLimit = 0, },
@@ -6875,7 +6893,6 @@ Config.BuyItems = {
         { itemLabel = "Rooster feather", itemName = "cockf", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Rooster feather" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Robin", itemName = "robin_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Robin" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Volture Egg", itemName = "Volture_Egg", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Volture Egg" , category ="AnimalsandPelts", itemLimit = 0, },
-        
         { itemLabel = "Legendary Alligator pelt", itemName = "legaligators", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Teca Alligator pelt", itemName = "legaligators1", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Teca Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Sun Alligator pelt", itemName = "legaligators2", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Sun Alligator pelt" , category ="Legendary", itemLimit = 0, },
@@ -6945,6 +6962,9 @@ Config.BuyItems = {
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
     },
     TallTreesTrapper = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Woodpecker", itemName = "woodpeck01_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Woodpecker 2", itemName = "woodpeck02_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Woodpecker 2" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Western rattlesnake pelt", itemName = "wsnakes", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Western rattlesnake pelt" , category ="AnimalsandPelts", itemLimit = 0, },
@@ -7098,7 +7118,6 @@ Config.BuyItems = {
         { itemLabel = "Rooster feather", itemName = "cockf", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Rooster feather" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Robin", itemName = "robin_c", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Robin" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Volture Egg", itemName = "Volture_Egg", currencyType = "cash", buyprice =5.00, randomprice = math.random(2, 50) , desc = "Buy Volture Egg" , category ="AnimalsandPelts", itemLimit = 0, },
-        
         { itemLabel = "Legendary Alligator pelt", itemName = "legaligators", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Teca Alligator pelt", itemName = "legaligators1", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Teca Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Sun Alligator pelt", itemName = "legaligators2", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Legendary Sun Alligator pelt" , category ="Legendary", itemLimit = 0, },
@@ -7169,6 +7188,9 @@ Config.BuyItems = {
     },
     -- FENCE --
     RhodesFence = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Minty Berry Mash", itemName = "appleCrumbMash", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Minty Berry Mash" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Minty Berry Moonshine", itemName = "appleCrumbMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Minty Berry Moonshine" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Alaskan Gin Mash", itemName = "mashalaskan", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Alaskan Gin Mash" , category ="Moonshine", itemLimit = 0, },
@@ -7186,7 +7208,6 @@ Config.BuyItems = {
         { itemLabel = "Ginseng Moonshine", itemName = "tropicalPunchMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Ginseng Moonshine" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Black Berry Mash", itemName = "wildCiderMash", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Black Berry Mash" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Black Berry Moonshine", itemName = "wildCiderMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Black Berry Moonshine" , category ="Moonshine", itemLimit = 0, },
-        
         { itemLabel = "Wedding Ring on chain", itemName = "wedding_chain_ring", currencyType = "cash", buyprice =75.00, randomprice = math.random(38, 112) /50, desc = "Buy Wedding Ring on chain" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Wedding Ring", itemName = "wedding_ring", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Wedding Ring" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Richelieu Amethyst Necklace", itemName = "provision_jewelry_amethyst_necklace", currencyType = "cash", buyprice =500.00, randomprice = math.random(250, 750) /50, desc = "Buy Richelieu Amethyst Necklace" , category ="Valuables", itemLimit = 0, },
@@ -7328,6 +7349,9 @@ Config.BuyItems = {
         
     },
     EmeraldRanchFence = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Minty Berry Mash", itemName = "appleCrumbMash", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Minty Berry Mash" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Minty Berry Moonshine", itemName = "appleCrumbMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Minty Berry Moonshine" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Alaskan Gin Mash", itemName = "mashalaskan", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Alaskan Gin Mash" , category ="Moonshine", itemLimit = 0, },
@@ -7345,7 +7369,6 @@ Config.BuyItems = {
         { itemLabel = "Ginseng Moonshine", itemName = "tropicalPunchMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Ginseng Moonshine" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Black Berry Mash", itemName = "wildCiderMash", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Black Berry Mash" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Black Berry Moonshine", itemName = "wildCiderMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Black Berry Moonshine" , category ="Moonshine", itemLimit = 0, },
-        
         { itemLabel = "Wedding Ring on chain", itemName = "wedding_chain_ring", currencyType = "cash", buyprice =75.00, randomprice = math.random(38, 112) /50, desc = "Buy Wedding Ring on chain" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Wedding Ring", itemName = "wedding_ring", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Wedding Ring" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Richelieu Amethyst Necklace", itemName = "provision_jewelry_amethyst_necklace", currencyType = "cash", buyprice =500.00, randomprice = math.random(250, 750) /50, desc = "Buy Richelieu Amethyst Necklace" , category ="Valuables", itemLimit = 0, },
@@ -7487,6 +7510,9 @@ Config.BuyItems = {
         
     },
     SaintDenisFence = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Minty Berry Mash", itemName = "appleCrumbMash", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Minty Berry Mash" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Minty Berry Moonshine", itemName = "appleCrumbMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Minty Berry Moonshine" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Alaskan Gin Mash", itemName = "mashalaskan", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Alaskan Gin Mash" , category ="Moonshine", itemLimit = 0, },
@@ -7504,7 +7530,6 @@ Config.BuyItems = {
         { itemLabel = "Ginseng Moonshine", itemName = "tropicalPunchMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Ginseng Moonshine" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Black Berry Mash", itemName = "wildCiderMash", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Black Berry Mash" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Black Berry Moonshine", itemName = "wildCiderMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Black Berry Moonshine" , category ="Moonshine", itemLimit = 0, },
-        
         { itemLabel = "Wedding Ring on chain", itemName = "wedding_chain_ring", currencyType = "cash", buyprice =75.00, randomprice = math.random(38, 112) /50, desc = "Buy Wedding Ring on chain" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Wedding Ring", itemName = "wedding_ring", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Wedding Ring" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Richelieu Amethyst Necklace", itemName = "provision_jewelry_amethyst_necklace", currencyType = "cash", buyprice =500.00, randomprice = math.random(250, 750) /50, desc = "Buy Richelieu Amethyst Necklace" , category ="Valuables", itemLimit = 0, },
@@ -7646,6 +7671,9 @@ Config.BuyItems = {
         
     },
     ThievesLandingFence = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },		
         { itemLabel = "Minty Berry Mash", itemName = "appleCrumbMash", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Minty Berry Mash" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Minty Berry Moonshine", itemName = "appleCrumbMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Minty Berry Moonshine" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Alaskan Gin Mash", itemName = "mashalaskan", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Alaskan Gin Mash" , category ="Moonshine", itemLimit = 0, },
@@ -7663,7 +7691,6 @@ Config.BuyItems = {
         { itemLabel = "Ginseng Moonshine", itemName = "tropicalPunchMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Ginseng Moonshine" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Black Berry Mash", itemName = "wildCiderMash", currencyType = "cash", buyprice =6.00, randomprice = math.random(3, 9) /50, desc = "Buy Black Berry Mash" , category ="Moonshine", itemLimit = 0, },
         { itemLabel = "Black Berry Moonshine", itemName = "wildCiderMoonshine", currencyType = "cash", buyprice =12.00, randomprice = math.random(6, 18) /50, desc = "Buy Black Berry Moonshine" , category ="Moonshine", itemLimit = 0, },
-        
         { itemLabel = "Wedding Ring on chain", itemName = "wedding_chain_ring", currencyType = "cash", buyprice =75.00, randomprice = math.random(38, 112) /50, desc = "Buy Wedding Ring on chain" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Wedding Ring", itemName = "wedding_ring", currencyType = "cash", buyprice =55.00, randomprice = math.random(28, 82), desc = "Buy Wedding Ring" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Richelieu Amethyst Necklace", itemName = "provision_jewelry_amethyst_necklace", currencyType = "cash", buyprice =500.00, randomprice = math.random(250, 750) /50, desc = "Buy Richelieu Amethyst Necklace" , category ="Valuables", itemLimit = 0, },
@@ -7805,6 +7832,9 @@ Config.BuyItems = {
         
     },
     BlackwaterFishing = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },			
         { itemLabel = "Medium Bluegil", itemName = "a_c_fishbluegil_01_ms", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Medium Bluegil" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Small Bluegil", itemName = "a_c_fishbluegil_01_sm", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Small Bluegil" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Medium Bullhead", itemName = "a_c_fishbullheadcat_01_ms", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Medium Bullhead" , category = "Fish", itemLimit = 0, },
@@ -7829,13 +7859,15 @@ Config.BuyItems = {
         { itemLabel = "Mackerel", itemName = "mackerel", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Mackerel" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Trout", itemName = "trout", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Trout" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Salmon", itemName = "salmon", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Salmon" , category = "Fish", itemLimit = 0, },
-        
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Bait" , category = "Bait", itemLimit = 0, },
         { itemLabel = "Fishbait", itemName = "fishbait", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Fishbait" , category = "Bait", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Bread Bait" , category = "Bait", itemLimit = 0, },
         { itemLabel = "Crawfish", itemName = "crawfish_c", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Crawfish" , category = "Bait", itemLimit = 0, },
     },
 	LagrasFishing = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },			
         { itemLabel = "Medium Bluegil", itemName = "a_c_fishbluegil_01_ms", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Medium Bluegil" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Small Bluegil", itemName = "a_c_fishbluegil_01_sm", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Small Bluegil" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Medium Bullhead", itemName = "a_c_fishbullheadcat_01_ms", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Medium Bullhead" , category = "Fish", itemLimit = 0, },
@@ -7860,13 +7892,15 @@ Config.BuyItems = {
         { itemLabel = "Mackerel", itemName = "mackerel", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Mackerel" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Trout", itemName = "trout", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Trout" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Salmon", itemName = "salmon", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Salmon" , category = "Fish", itemLimit = 0, },
-        
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Bait" , category = "Bait", itemLimit = 0, },
         { itemLabel = "Fishbait", itemName = "fishbait", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Fishbait" , category = "Bait", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Bread Bait" , category = "Bait", itemLimit = 0, },
         { itemLabel = "Crawfish", itemName = "crawfish_c", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Crawfish" , category = "Bait", itemLimit = 0, },
     },
     Wapiti = {
+		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", buyprice = 20, randomprice = math.random(10, 20) /50, desc = "Buy Heroin", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Hemp", itemName = "hemp", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Hemp", category = "Meds", itemLimit = 0, },
+		{ itemLabel = "Bandage", itemName = "bandage", currencyType = "cash", buyprice = 20, randomprice = math.random(20) /50, desc = "Buy Bandage", category = "Meds", itemLimit = 0, },			
         { itemLabel = "Medium Bluegil", itemName = "a_c_fishbluegil_01_ms", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Medium Bluegil" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Small Bluegil", itemName = "a_c_fishbluegil_01_sm", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Small Bluegil" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Medium Bullhead", itemName = "a_c_fishbullheadcat_01_ms", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Medium Bullhead" , category = "Fish", itemLimit = 0, },
@@ -7891,7 +7925,6 @@ Config.BuyItems = {
         { itemLabel = "Mackerel", itemName = "mackerel", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Mackerel" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Trout", itemName = "trout", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Trout" , category = "Fish", itemLimit = 0, },
         { itemLabel = "Salmon", itemName = "salmon", currencyType = "cash", sellprice = 1.50, randomprice = math.random(1, 2) /50, desc = "Sell Salmon" , category = "Fish", itemLimit = 0, },
-        
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Bait" , category = "Bait", itemLimit = 0, },
         { itemLabel = "Fishbait", itemName = "fishbait", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Fishbait" , category = "Bait", itemLimit = 0, },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 1, randomprice = math.random(1, 2) /50, desc = "Sell Bread Bait" , category = "Bait", itemLimit = 0, },
