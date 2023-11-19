@@ -731,6 +731,7 @@ Config.Stores = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
             { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -782,6 +783,7 @@ Config.Stores = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
             { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -833,6 +835,7 @@ Config.Stores = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
             { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -884,6 +887,7 @@ Config.Stores = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
             { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY
@@ -935,6 +939,7 @@ Config.Stores = {
             { label = "AnimalsandPelts",    Type = "AnimalsandPelts",    desc = "Nice Pelts And Stuff", img = "wolf_pelt" },
             { label = "Legendary",   Type = "Legendary",   desc = "Legendary Items",   img = "provision_role_naturalist_carcass_ram_legendary_02" },
             { label = "Meds", Type = "Meds", desc = "Meds",    img = "bandage" },
+			{ label = "Maptools", Type = "Maptools", desc = "Items for Map",    img = "compass " },
         },
         -- * store type allow which type of store to show in the store
         -- * buy and sell USE ENGLISH ONLY

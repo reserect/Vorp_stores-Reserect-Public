@@ -759,6 +759,7 @@ Config.SellItems = {
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
 		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
 
     },
     Rhodes = {
@@ -1516,6 +1517,7 @@ Config.SellItems = {
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
 		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
 		
     },
     Strawberry = {
@@ -2273,6 +2275,7 @@ Config.SellItems = {
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
 		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
 		
     },
     Blackwater = {
@@ -3030,6 +3033,7 @@ Config.SellItems = {
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
 		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
 		
     },
     Armadillo = {
@@ -3787,6 +3791,7 @@ Config.SellItems = {
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
 		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
 		
     },
     Tumbleweed = {
@@ -4544,6 +4549,7 @@ Config.SellItems = {
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
 		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
 		
     },
     StDenis = {
@@ -5301,6 +5307,7 @@ Config.SellItems = {
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
 		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
 		
     },
     Vanhorn = {
@@ -6058,6 +6065,7 @@ Config.SellItems = {
         { itemLabel = "Pocket Watch", itemName = "pocket_watch", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Pocket Watch" , category ="Valuables", itemLimit = 0, },
         { itemLabel = "Broken Pearl Necklace", itemName = "brokenpearlnecklace", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Broken Pearl Necklace" , category ="Valuables", itemLimit = 0, },
 		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
 		
     },
 	SaintDenisTrapper = {
@@ -6285,6 +6293,8 @@ Config.SellItems = {
         { itemLabel = "Legendary Emerald Wolf pelt", itemName = "legwolfs1", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Emerald Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Onyx Wolf pelt", itemName = "legwolfs2", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Onyx Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
     },
     ElysianPoolTrapper = {
 		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", sellprice = 20, randomprice = math.random(10, 20) /50, desc = "Sell Heroin", category = "Meds", itemLimit = 0, },
@@ -6511,6 +6521,8 @@ Config.SellItems = {
         { itemLabel = "Legendary Emerald Wolf pelt", itemName = "legwolfs1", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Emerald Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Onyx Wolf pelt", itemName = "legwolfs2", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Onyx Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
     },
     NearStrawberryTrapper = {
 		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", sellprice = 20, randomprice = math.random(10, 20) /50, desc = "Sell Heroin", category = "Meds", itemLimit = 0, },
@@ -6737,6 +6749,8 @@ Config.SellItems = {
         { itemLabel = "Legendary Emerald Wolf pelt", itemName = "legwolfs1", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Emerald Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Onyx Wolf pelt", itemName = "legwolfs2", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Onyx Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
     },
     NearRiggsStationTrapper = {
 		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", sellprice = 20, randomprice = math.random(10, 20) /50, desc = "Sell Heroin", category = "Meds", itemLimit = 0, },
@@ -6963,6 +6977,8 @@ Config.SellItems = {
         { itemLabel = "Legendary Emerald Wolf pelt", itemName = "legwolfs1", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Emerald Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Onyx Wolf pelt", itemName = "legwolfs2", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Onyx Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
     },
     TallTreesTrapper = {
 		{ itemLabel = "Heroin", itemName = "heroin", currencyType = "cash", sellprice = 20, randomprice = math.random(10, 20) /50, desc = "Sell Heroin", category = "Meds", itemLimit = 0, },
@@ -7121,7 +7137,6 @@ Config.SellItems = {
         { itemLabel = "Rooster feather", itemName = "cockf", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 50) , desc = "Sell Rooster feather" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Robin", itemName = "robin_c", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 50) , desc = "Sell Robin" , category ="AnimalsandPelts", itemLimit = 0, },
         { itemLabel = "Volture Egg", itemName = "Volture_Egg", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 50) , desc = "Sell Volture Egg" , category ="AnimalsandPelts", itemLimit = 0, },
-        
         { itemLabel = "Legendary Alligator pelt", itemName = "legaligators", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Teca Alligator pelt", itemName = "legaligators1", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Teca Alligator pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Sun Alligator pelt", itemName = "legaligators2", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Sun Alligator pelt" , category ="Legendary", itemLimit = 0, },
@@ -7189,6 +7204,8 @@ Config.SellItems = {
         { itemLabel = "Legendary Emerald Wolf pelt", itemName = "legwolfs1", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Emerald Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Onyx Wolf pelt", itemName = "legwolfs2", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Onyx Wolf pelt" , category ="Legendary", itemLimit = 0, },
         { itemLabel = "Legendary Moonstone Wolf pelt", itemName = "legwolfs3", currencyType = "cash", sellprice =55.00, randomprice = math.random(28, 82), desc = "Sell Legendary Moonstone Wolf pelt" , category ="Legendary", itemLimit = 0, },
+		{ itemLabel = "Compass", itemName = "compass", currencyType = "cash", sellprice =5.00, randomprice = math.random(2, 8) /50, desc = "Sell Compass" , category ="Maptools", itemLimit = 0, },
+		{ itemLabel = "Map", itemName = "map", currencyType = "cash", sellprice =1.00, randomprice = math.random(1, 2) /50, desc = "Sell Map" , category ="Maptools", itemLimit = 0, },
     },
     -- FENCE --
     RhodesFence = {
