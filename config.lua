@@ -8,15 +8,15 @@ Config.Align = "top-left"
 Config.DevMode = false -- if true you can use /reload to reload the script
 
 -- Webhook Section, description is in translation
-Config.UseWebhook = true -- Use webhook
+Config.UseWebhook = false -- Use webhook
 Config.WebhookLanguage = {
-    WebhookUrl = "https://discord.com/api/webhooks/1017725842564067338/qQuAmeZKRDE9Vr1uLwgHq2En7mmksxqhpr6nTWBO66l48YwhuG1tbkevJNBY93vRHfL5",
-    WebhookTitle = "ReserectsVorpStores",
-    WebhookColor = "1127128",
-    WebhookName = "ReserectsVorpStores",
-    WebhookLogo = "https://i.imgur.com/7K5Gcmt.png",
-    WebhookLogo2 = "https://i.imgur.com/7K5Gcmt.png",
-    WebhookAvatar = "https://i.imgur.com/7K5Gcmt.png"
+    WebhookUrl = "",
+    WebhookTitle = "",
+    WebhookColor = "",
+    WebhookName = "",
+    WebhookLogo = "",
+    WebhookLogo2 = "",
+    WebhookAvatar = ""
 }
 -- if you have UI you want to hid use it in this function
 -- remove what you dont use
