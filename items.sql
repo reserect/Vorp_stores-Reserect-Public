@@ -53,7 +53,7 @@ INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `
 	('almonds', 'Almonds', 200, 1, 'item_standard', 1, 16839, 1, '{}', 'nice item'),
 	('American_Ginseng', 'American Ginseng', 200, 1, 'item_standard', 1, 7, 1, '{}', 'A species of ginseng native to North America valued for its medicinal properties.'),
 	('American_Ginseng_Seed', 'American Ginseng Seed', 200, 1, 'item_standard', 1, 8, 11, '{}', 'A seed that can be planted to grow American Ginseng.'),
-	('ammoarrmownormal', 'Arrow Normal', 200, 1, 'item_standard', 1, 9, 6, '{}', 'nice item'),
+	('ammoarrownormal', 'Arrow Normal', 200, 1, 'item_standard', 1, 9, 6, '{}', 'nice item'),
 	('ammoarrowdynamite', 'Arrow Dynamite', 200, 1, 'item_standard', 1, 10, 6, '{}', 'An explosive arrow designed to cause significant damage upon impact.'),
 	('ammoarrowfire', 'Arrow Fire', 200, 1, 'item_standard', 1, 11, 6, '{}', 'An arrow equipped with a flaming tip capable of setting targets on fire.'),
 	('ammoarrowimproved', 'Arrow Improved', 200, 1, 'item_standard', 1, 12, 6, '{}', 'An upgraded arrow with improved accuracy and damage.'),
