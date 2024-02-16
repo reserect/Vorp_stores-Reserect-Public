@@ -2,7 +2,8 @@ Vorp_stores-Reserect-Public
 This is the updated configs plus Shared Folder for buy and sell configs
 Has the Legendary Pelts And More Please remember this was configured for 
 my own use before and Removed a few things that was not needed. This 
-includes all the Trapper Stores Too.
+includes all the Trapper Stores Too. Please add your own Buy.png Sell.png
+as i have now removed those.
 
 Didn't add the key images to the store images folder for vorp_housing 
 but they are in the database so added them seperatly
