@@ -12,6 +12,8 @@ Keyimages.zip
 Images.zip
 2455 images 
 It may ask to overwrite if you want to keep your other images do not overwrite.
+835 images added thanks to TR
+20/02/2024
 
 items.sql
 This has near enough everything listed that is needed if you spot anything missing please let me know so i can update my database file.
